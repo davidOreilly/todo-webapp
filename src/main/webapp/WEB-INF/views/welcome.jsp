@@ -1,9 +1,7 @@
-<html>
-<head>
-<title>Yahoo!!</title>
-</head>
-<body>
-Welcome ${name}<br />
-Now you can <a href="list-todos?name=${name}">manage your todos</a>
-</body>
-</html>
+<%@ include file="common/header.jspf" %>
+<%@ include file="common/navigation.jspf" %>
+    <div class="container">
+        Welcome ${name} <br />
+        Now you can <a href="list-todos?name=${name}">manage your todos</a>
+    </div>
+<%@ include file="common/footer.jspf" %>
